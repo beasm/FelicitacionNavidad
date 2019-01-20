@@ -4,6 +4,6 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="titulo">#FFFFFF</color>
-    <color name="mensaje">#D50000</color>
+    <color name="mensaje">#000000</color>
     <color name="bea">#000000</color>
 </resources>
