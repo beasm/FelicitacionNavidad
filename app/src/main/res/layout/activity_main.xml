@@ -25,13 +25,12 @@
         />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="28dp"
-        android:layout_marginEnd="77dp"
-        android:fontFamily="cursive"
         android:text="@string/titulo"
         android:textAlignment="center"
         android:textColor="@color/titulo"
@@ -54,10 +53,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="444dp"
-        android:layout_marginEnd="6dp"
         android:fontFamily="cursive"
         android:text="@string/firma"
         android:textAlignment="center"
