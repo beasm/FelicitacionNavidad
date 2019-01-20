@@ -1,4 +1,4 @@
-package com.practica.bea_s.felicitacionnavidea;
+package com.practica.bea_s.felicitacionnavidad;
 
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
