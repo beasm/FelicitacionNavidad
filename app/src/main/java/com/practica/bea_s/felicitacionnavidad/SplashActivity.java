@@ -1,6 +1,7 @@
 package com.practica.bea_s.felicitacionnavidad;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.animation.Animation;
@@ -19,6 +20,10 @@ public class SplashActivity extends AppCompatActivity implements Animation.Anima
         Animation animacionMensaje = AnimationUtils.loadAnimation(this, R.anim.splash);
         TextView tv_textView = (TextView) findViewById(R.id.textView);
         tv_textView.startAnimation(animacionMensaje);
+
+        //Crear un objeto de tipo Typeface. Todas las fuentes que se quieran
+        Typeface tp = Typeface.createFromAsset(getAssets(),"santa.ttf" );
+        tv_textView.setTypeface(tp);
 
         animacionMensaje.setAnimationListener(this);
     }

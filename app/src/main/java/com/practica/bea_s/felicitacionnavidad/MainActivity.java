@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
         TextView tv_mensaje3 = (TextView) findViewById(R.id.mensaje3);
         tv_mensaje3.startAnimation(animacionMensaje);
 
+        Typeface tp_santa = Typeface.createFromAsset(getAssets(), "ChristmasSprouts.ttf");
+        tv_mensaje1.setTypeface(tp_santa);
+        tv_mensaje2.setTypeface(tp_santa);
+        tv_mensaje3.setTypeface(tp_santa);
+
 
         //Crear un objeto de tipo MediaPlayer
         MediaPlayer mp = MediaPlayer.create(this,R.raw.last_christmas);

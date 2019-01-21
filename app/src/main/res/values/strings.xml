@@ -2,8 +2,8 @@
     <string name="app_name">Feliz Navidad</string>
     <string name="titulo">Feliz Navidad</string>
     <string name="mensaje1">En Navidad,</string>
-    <string name="mensaje2">todos los caminos </string>
-    <string name="mensaje3">llegan a casa</string>
+    <string name="mensaje2">todos los caminos</string>
+    <string name="mensaje3">llevan a casa</string>
     <string name="firma">Bea</string>
     <string name="textosplash">Loading...</string>
 </resources>
