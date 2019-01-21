@@ -26,13 +26,15 @@ public class MainActivity extends AppCompatActivity {
         tv_titulo.startAnimation(animacion);
 
         //Animacion mensajes
-        Animation animacionMensaje = AnimationUtils.loadAnimation(this,R.anim.animacion_mensaje);
+        Animation animacionMensaje1 = AnimationUtils.loadAnimation(this,R.anim.animacion_mensaje1);
         TextView tv_mensaje1 = (TextView) findViewById(R.id.mensaje1);
-        tv_mensaje1.startAnimation(animacionMensaje);
+        tv_mensaje1.startAnimation(animacionMensaje1);
+        Animation animacionMensaje2 = AnimationUtils.loadAnimation(this,R.anim.animacion_mensaje1);
         TextView tv_mensaje2 = (TextView) findViewById(R.id.mensaje2);
-        tv_mensaje2.startAnimation(animacionMensaje);
+        tv_mensaje2.startAnimation(animacionMensaje2);
+        Animation animacionMensaje3 = AnimationUtils.loadAnimation(this,R.anim.animacion_mensaje1);
         TextView tv_mensaje3 = (TextView) findViewById(R.id.mensaje3);
-        tv_mensaje3.startAnimation(animacionMensaje);
+        tv_mensaje3.startAnimation(animacionMensaje3);
 
         Typeface tp_santa = Typeface.createFromAsset(getAssets(), "ChristmasSprouts.ttf");
         tv_mensaje1.setTypeface(tp_santa);
