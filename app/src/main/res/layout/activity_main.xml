@@ -18,11 +18,32 @@
     <!--android:scaleType="center"-->
     <!--app:srcCompat="@drawable/navidad" />-->
     <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/fondo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.7"
+        android:alpha="0.5"
         android:scaleType="centerCrop"
         android:src="@drawable/navidad" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/papanoel"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/papai_noel" />
+
+    <TextView
+        android:id="@+id/papanoeltexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:text="@string/papanoeltexto"
+        android:textAlignment="center"
+        android:textColor="@color/rojo"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/titulo"
@@ -43,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="295dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="0dp"
         android:text="@string/mensaje1"
         android:textAlignment="center"
@@ -57,7 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="335dp"
+        android:layout_marginTop="330dp"
         android:layout_marginEnd="0dp"
         android:text="@string/mensaje2"
         android:textAlignment="center"
@@ -71,12 +92,51 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="375dp"
+        android:layout_marginTop="360dp"
         android:layout_marginEnd="0dp"
         android:text="@string/mensaje3"
         android:textAlignment="center"
         android:textColor="@color/mensaje"
         android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/frase1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="300dp"
+        android:text="@string/frase1"
+        android:textAlignment="center"
+        android:textColor="@color/mensaje"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/frase2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="300dp"
+        android:text="@string/frase2"
+        android:textAlignment="center"
+        android:textColor="@color/mensaje"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/frase3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="300dp"
+        android:text="@string/frase3"
+        android:textAlignment="center"
+        android:textColor="@color/mensaje"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <TextView

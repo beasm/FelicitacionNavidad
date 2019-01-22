@@ -6,4 +6,5 @@
     <color name="titulo">#FFFFFF</color>
     <color name="mensaje">#000000</color>
     <color name="bea">#000000</color>
+    <color name="rojo">#ef0008</color>
 </resources>

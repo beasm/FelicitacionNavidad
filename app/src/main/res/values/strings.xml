@@ -6,4 +6,9 @@
     <string name="mensaje3">llevan a casa</string>
     <string name="firma">Bea</string>
     <string name="textosplash">LOADING...</string>
+
+    <string name="frase1">Que la magia de la Navidad te ilumine y te ayude a conseguir todos tus sueños</string>
+    <string name="frase2">En estas fiestas quisiera compartir contigo mis mejores deseos de paz, felicidad y amor</string>
+    <string name="frase3">El mejor regalo que me pueden hacer esta Navidad ya lo tengo... eres tú. ¡Felices Fiestas!</string>
+    <string name="papanoeltexto">Repetir</string>
 </resources>

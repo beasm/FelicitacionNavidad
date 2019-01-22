@@ -2,8 +2,20 @@
 <set xmlns:android="http://schemas.android.com/apk/res/android">
 
     <translate
-        android:duration="3000"
+        android:duration="2000"
         android:fromXDelta="-1000"
-         />
+        />
+
+    <!--parpadear-->
+    <alpha
+        android:fromAlpha="1.0"
+        android:toAlpha="0.1"
+        android:startOffset="2000"
+        android:duration="1000"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:repeatMode="restart"
+        android:repeatCount="infinite"
+        />
+
 </set>
 
